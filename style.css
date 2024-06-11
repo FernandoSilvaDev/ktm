@@ -207,6 +207,33 @@ footer {
         z-index: 22;
     }
 
+    #follow-us {
+        margin-top: 8px;
+    }
+
+    #motogp {
+        margin-top: -22px;
+    }
+
+    #follow-us h3 {
+        position: absolute;
+        top: 25%;
+        left: 10vw;
+        font-size: 1.5em;
+    }
+    
+    #follow-us h6 {
+        position: absolute;
+        top: 45%;
+        left: 15%;
+    }
+
+    #btn-inst .btn {
+        position: absolute;
+        top: 60%;
+        left: 25%;
+    }
+
     #carousel .w-100 {
         width: 379% !important;
     }
