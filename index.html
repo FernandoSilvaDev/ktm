@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/Imagens do site/Icon.jpg" type="image/x-icon">
+    <title>KTM - READY TO RACE</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-0" id="cabecalho"> 
+        <div class="container">
+            <div class="col-md-6">
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <nav class="navbar-collapse collapse justify-content-start" id="menu-navegacao">
+    
+
+                    <ul class="nav nav-pills d-block d-md-flex">
+                        <li class="nav-item fw-bold"> 
+                            <a class="nav-link" href="#inicio">
+                                <i class="bi bi-house-door me-2"></i>Home</a> 
+                        </li>
+                        <li class="nav-item fw-bold"> 
+                            <a class="nav-link" href="#news"><i class="bi bi-calendar-check me-2"></i>News</a>
+                        </li>
+                        <li class="nav-item fw-bold">
+                            <a class="nav-link" href="#models"><i class="bi bi-card-text me-2"></i>Models</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-md-6 d-flex justify-content-end">
+                <nav class="navbar-collapse collapse justify-content-end ">
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="bi bi-geo-alt fs-5 text-colored"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="bi bi bi-globe fs-5 text-colored"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="bi bi-person-circle fs-5 me-5 text-colored"></i></a>
+                        </li>
+                    </ul>
+                </nav>
+                <div>
+                    <a href="#">
+                        <img id="logo-header" class="navbar-brand m-0 section-title p-0 justify-content-end" src="/Imagens do site/37860_KTM_LogoPodium_orange_RGB.jpg" alt="logo-ktm">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<!--_______________________________________________________________Carousel_________________________________________________________________________________________________-->
+<div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true"> 
+    <section id="inicio">
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="/Imagens do site/Carousel/KTM 1390 SD R.jpg" data-bs-interval="3000" alt="">
+                    <div class="carousel-caption">
+                        <h4 class="fw-bold">NO BULLSHIT!</h4>
+                        <h2 class="fw-bold">2024 KTM NAKED RANGE</h2>
+                        <button class="btn roudend-none fw-bold p-4 px-5">EXPLORE MORE</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="/Imagens do site/Carousel/KTM 990 RCR.jpg" data-bs-interval="3000" alt="">
+                    <div class="carousel-caption">
+                        <h4 class="fw-bold">NEVER STOP</h4>
+                        <h2 class="fw-bold">2025 KTM 990 RC R</h2>
+                        <button class="btn roudend-none fw-bold p-4 px-5">EXPLORE MORE</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class=" w-100" src="/Imagens do site/Carousel/2025 ktm 450 rally.jpg" data-bs-interval="3000" alt="">
+                    <div class="carousel-caption">
+                        <h4 class="fw-bold">DOMINATE THE DUNES</h4>
+                        <h2 class="fw-bold">2025 KTM 450 RALLY REPLICA</h2>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class=" w-100" src="/Imagens do site/Carousel/25 SX.jpg" data-bs-interval="3000" alt="">
+                    <div class="carousel-caption">
+                        <h4 class="fw-bold">NEXT LEVEL MOTO</h4>
+                        <h2 class="fw-bold">2025 KTM SX RANGE</h2>
+                        <button class="btn roudend-none fw-bold p-4 px-5">EXPLORE MORE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+            </div>
+        </div>
+    </section>
+<!--_________________________________________________________________________Menu_______________________________________________________________________________________________________________-->
+
+    <section>
+        <div class="pt-5 pb-5">
+            <div id="naked" class="container">
+                <div class="row">
+                    <div  class="col-md-6 p-0 m-0 cards">
+                        <a href="#" class="nav-link me-1">
+                            <img src="/Imagens do site/naked-cover.png" id="cover1" onmousemove="nakedCover()" onmouseout="nakedNormal()" class="w-100" alt="">
+                        </a>
+
+                    </div>
+
+                    <div class="col-md-6 p-0">
+                        <a href="#" class="nav-link ms-1">
+                            <img src="/Imagens do site/Enduro-cover.png" id="cover2" onmousemove="enduroCover()" onmouseout="enduroNormal()" class="w-100">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="news" class="pt-3 pb-3 p-0">
+        <div class="container">
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <a href="#" class="nav-link">
+                    <img src="/Imagens do site/Cards/Captura de tela 2024-06-05 142756.jpg" alt="" class="d-block w-100 roudend mb-2">
+                    </a>
+                    <h6 class="fw-bold my-3">2 de Junho de 2024</h6>
+                    <a href="#" class="nav-link">
+                    <h3 class="section-title fw-bold fs-4"> GERMAN MXGP GRAND PRIX TROPHY FOR HERLINGS WITH 3RD IN TEUTSCHENTHAL</h3>
+                    </a>
+                    <p>
+                        The trip to Teutschenthal means MXGP in Germany, and the time-honored hard-pack and narrow circuit near the city of Halle witnessed another podium finish for Red Bull KTM Factory Racing and Jeffrey Herlings at round eight of 2024 MXGP and the first of another triple header.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <a href="#" class="nav-link">
+                    <img src="/Imagens do site/Cards/Captura de tela 2024-06-05 143001.jpg" alt="" class="d-block w-100 roudend mb-2">
+                    </a>
+                    <h6 class="fw-bold my-3">2 de Junho de 2024</h6>
+                    <a href="#" class="nav-link">
+                    <h3 class="section-title fw-bold fs-4">BINDER’S PUSH REWARDED WITH TOP TEN IN ITALIAN MOTOGP™ CHASE</h3>
+                    </a>
+                    <p>
+                        Red Bull KTM Factory Racing chased speed and feeling at the Italian Grand Prix and the second weekend of MotoGP in a row. Brad Binder rode to 10th position at a busy and bright Mugello for six points and moves up to 7th in the championship as teammate Jack Miller made it to the finish in 16th place.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <a href="#" class="nav-link">
+                    <img src="/Imagens do site/Cards/Captura de tela 2024-06-05 143056.jpg" alt="" class="d-block w-100 roudend mb-2">
+                    </a>
+                    <h6 class="fw-bold my-3">2 de Junho de 2024</h6>
+                    <a href="#" class="nav-link">
+                    <h3 class="section-title fw-bold fs-4"> MANUEL LETTENBICHLER WINS 2024 RED BULL ERZBERGRODEO</h3>
+                    </a>
+                    <p>
+                        Red Bull KTM Factory Racing’s Manuel Lettenbichler has won the 2024 Red Bull Erzbergrodeo, conquering the epic Iron Giant for the third year in a row.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="models" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center mb-5 fw-bold">Models</h2>
+            </div>
+            <div class="row">
+                <aside class="col-md-2">
+                    <nav class="nav nav-pills flex-column nav-cardapio"> 
+                        <button data-bs-toggle="tab" data-bs-target="#travel" class="fw-bold text-start nav-link text-colored active" type="button">Travel</button>
+                        <button data-bs-toggle="tab" data-bs-target="#naked-bike" class="fw-bold text-start nav-link text-colored" type="button">Naked Bike</button>
+                        <button data-bs-toggle="tab" data-bs-target="#mx" class="fw-bold text-start nav-link text-colored" type="button">MX</button>
+                        <button data-bs-toggle="tab" data-bs-target="#enduro" class="fw-bold text-start nav-link text-colored" type="button">Enduro</button>
+                        <button data-bs-toggle="tab" data-bs-target="#e-ride" class="fw-bold text-start nav-link text-colored" type="button">E-Ride</button>
+                    </nav>
+                </aside>
+                <div class="col-md-10">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="travel">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="Imagens do site/Travel/KTM 1290 SUPER ADVENTURE S.jpg" alt="KTM 1290 SUPER ADVENTURE S">
+                                    <h5 class="text-colored fw-bold mt-2">KTM 1290 SUPER ADVENTURE S</h5>
+                                    <p>
+                                        É a forma mais rápida de percorrer grandes trajetos sem comprometer o conforto e a compostura.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="Imagens do site/Travel/KTM 390 Adventure.jpg" alt="KTM 390 Adventure">
+                                    <h5 class="text-colored fw-bold mt-2">KTM 390 Adventure</h5>
+                                    <p>
+                                        Traga mais aventura para a sua rotina com a KTM 390 ADVENTURE com rodas raiadas.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="Imagens do site/Travel/KTM 450 RALLY REPLICA.png" alt="KTM 450 RALLY REPLICA">
+                                    <h5 class="text-colored fw-bold mt-2">KTM 450 RALLY REPLICA</h5>
+                                    <p>
+                                        Criada com propósito e com base em engenharia especializada, a 2023 KTM 450 RALLY REPLICA.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="Imagens do site/Travel/KTM 790 Adventure.jpg" alt="KTM 790 Adventure">
+                                    <h5 class="text-colored fw-bold mt-2">KTM 790 Adventure</h5>
+                                    <p>
+                                        A ideia de passar o final de semana todo cumprindo tarefas o(a) desanima? Pegue as chaves da sua KTM 790 ADVENTURE
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="Imagens do site/Travel/KTM 890 ADVENTURE R.jpg" alt="KTM 890 ADVENTURE R">
+                                    <h5 class="text-colored fw-bold mt-2">KTM 890 ADVENTURE R</h5>
+                                    <p>
+                                        The KTM 890 ADVENTURE R is the ultimate offroad-focused travel bike for those more adventurous shortcuts.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="Imagens do site/Travel/KTM 890 ADVENTURE.jpg" alt="KTM 890 ADVENTURE">
+                                    <h5 class="text-colored fw-bold mt-2">KTM 890 ADVENTURE</h5>
+                                    <p>
+                                        A imprevisibilidade é o que torna as aventuras tão atraentes. Às vezes, somos forçados a sair da nossa zona de conforto.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="naked-bike">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="Imagens do site/Naked Bike/2023 KTM 390 DUKE.png" alt="2023 KTM 390 DUKE">
+                                    <h5 class="text-colored fw-bold mt-2">2023 KTM 390 DUKE</h5>
+                                    <p>
+                                        The KTM 390 DUKE gets a boost of ‘badassery’ for 2024. Its all-new aggressive looks really back up its characteristic razor-sharp handling.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="Imagens do site/Naked Bike/2023 KTM 890 DUKE GP.png" alt="2023 KTM 890 DUKE GP">
+                                    <h5 class="text-colored fw-bold mt-2">2023 KTM 890 DUKE GP</h5>
+                                    <p>
+                                        A KTM 890 DUKE GP é incomparável no cenário das máquinas de peso médio. Ostentando um novíssimo e exclusivo CTG derivado do GP.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="Imagens do site/Naked Bike/2023 KTM 890 DUKE R.png" alt="2023 KTM 890 DUKE R">
+                                    <h5 class="text-colored fw-bold mt-2">2023 KTM 890 DUKE R</h5>
+                                    <p>
+                                        Ágil, porém com maior potência, a KTM 890 DUKE R aproveita e torna ainda melhor tudo o que mais apreciamos na KTM 790 DUKE.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="Imagens do site/Naked Bike/2024 KTM 1390 SUPER DUKE R EVO.png" alt="2024 KTM 1390 SUPER DUKE R EVO">
+                                    <h5 class="text-colored fw-bold mt-2">2024 KTM 1390 SUPER DUKE R EVO</h5>
+                                    <p>
+                                        A KTM 1390 SUPER DUKE R EVO é, de fato, uma BEAST evoluída. Ela não apenas divide os mesmos avanços da novíssima KTM 1390 SUPER DUKE R.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="Imagens do site/Naked Bike/2024 KTM 1390 SUPER DUKE R.png" alt="2024 KTM 1390 SUPER DUKE R">
+                                    <h5 class="text-colored fw-bold mt-2">2024 KTM 1390 SUPER DUKE R</h5>
+                                    <p>
+                                        Dizem que o topo é solitário. Mas isso é só porque você devorou o seu caminho até alcançar o topo da pirâmide.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="mx">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="Imagens do site/MX/2025 KTM 125 SX.png" alt="2025 KTM 125 SX">
+                                    <h5 class="text-colored fw-bold mt-2">2025 KTM 125 SX</h5>
+                                    <p>
+                                        Existem alguns poucos sons que são únicos. Uma latinha de refrigerante sendo aberta num dia extremamente quente.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="Imagens do site/MX/2025 KTM 150 SX.png" alt="2025 KTM 150 SX">
+                                    <h5 class="text-colored fw-bold mt-2">2025 KTM 150 SX</h5>
+                                    <p>
+                                        Ela voltou! Após 2 anos afastada do cenário de corridas amadoras, a KTM 150 SX de 2025 está pronta novamente para encarar a sua pista MX favorita.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="Imagens do site/MX/2025 KTM 250 SX.png" alt="2025 KTM 250 SX">
+                                    <h5 class="text-colored fw-bold mt-2">2025 KTM 250 SX</h5>
+                                    <p>
+                                        Pense num “desempenho desenfreado de 2 cursos” que provavelmente virá a imagem de uma KTM 250 SX à sua mente.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="Imagens do site/MX/2025 KTM 300 SX.png" alt="2025 KTM 300 SX">
+                                    <h5 class="text-colored fw-bold mt-2">2025 KTM 300 SX</h5>
+                                    <p>
+                                        Em termos de relação peso/potência, a KTM 300 SX é imbatível.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="Imagens do site/MX/KTM 125 SX 2023.png" alt="KTM 125 SX 2023">
+                                    <h5 class="text-colored fw-bold mt-2">KTM 125 SX 2023</h5>
+                                    <p>
+                                        Basta fazer uma pilotagem vigorosa e rápida em um acostamento lamacento para perceber que a 2023 KTM 125 SX é um desafiante sério nas corridas de 125 cc.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="Imagens do site/MX/KTM 250 SX 2023.png" alt="KTM 250 SX 2023.png">
+                                    <h5 class="text-colored fw-bold mt-2">KTM 250 SX 2023.png</h5>
+                                    <p>
+                                        Durante décadas, a categoria de 2 cursos e 250 cc esteve na vanguarda do desempenho puro e não adulterado. 
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="Imagens do site/MX/KTM 300 SX 2023.png" alt="KTM 300 SX 2023">
+                                    <h5 class="text-colored fw-bold mt-2">KTM 300 SX 2023</h5>
+                                    <p>
+                                        A potência máxima com o menor peso possível, maximizada pelo baixo custo de manutenção e pela entrega de potência linear.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="Imagens do site/MX/KTM 85 SX 19-16 2023.png" alt="KTM 85 SX 19/16 2023">
+                                    <h5 class="text-colored fw-bold mt-2">KTM 85 SX 19/16 2023</h5>
+                                    <p>
+                                        Se você está lendo isto, então pode-se dizer que as coisas se tornaram sérias.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="enduro">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="Imagens do site/Enduro/2024 KTM 300 EXC.png" alt="2024 KTM 300 EXC">
+                                    <h5 class="text-colored fw-bold mt-2">2024 KTM 300 EXC</h5>
+                                    <p>
+                                        A KTM 300 EXC é um dos nomes mais reconhecidos quando se trata das Enduro mais radicais. Com um confiável motor de 2 cursos com injeção de combustível, que produz uma grande quantidade de torque e fúria de ponta, é a companheira ideal para enfrentar terrenos desafiadores. 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="e-ride">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="Imagens do site/E_Ride/2024 KTM SX-E 2.png" alt="2024 KTM SX-E 2">
+                                    <h5 class="text-colored fw-bold mt-2">2024 KTM SX-E 2</h5>
+                                    <p>
+                                        Equipada e pronta para detonar na pista, a nova KTM SX-E 2 de 2024 está integrada à linha mini elétrica da KTM com um objetivo claro: preencher a lacuna. Projetada para se encaixar entre o ciclo de estabilidade da KTM SX-E 1.20 e a máquina de corrida elétrica KTM SX-E 3, ela fornece a plataforma ideal para os pilotos mais jovens avançarem para a próxima etapa.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="pt-5 pb-5"> 
+            <div id="social" class="container">
+                <div  class="row">
+                    <div  class="col-md-6 p-0 m-0"> 
+                        <a href="#" class="nav-link me-1">
+                            <img src="/Imagens do site/brad-binder_jack-miller_rc16_red-bull-ktm_motogp_2023-5-_0.gallery_full_top_fullscreen.jpg" class="w-100" alt="">
+                        </a>
+
+                    </div>
+                    <div id="follow-us" class="col-md-6 p-0">
+                        <div>
+                            <h3 class="fw-bold p-0 m-0">FIND US ON INSTAGRAM</h3>
+                            <h6 class="p-0 m-0">Get you daily dose #ReadyToRace</h6>
+                            <div id="btn-inst">
+                                <button class="btn p-4 px-5"><i class="bi bi-instagram me-2"></i>Follow us</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section>
+        <div id="sub-footer"  class="container">
+            <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <p class="text-center ">
+                    Os detalhes selecionados de modelos de produção dos veículos ilustrados podem variar e algumas ilustrações apresentam equipamento opcional a custos adicionais.  Todas as informações sobre o escopo de fornecimento, a aparência, os serviços, as dimensões e os pesos não são vinculativas e incluem a indicação de que podem conter erros de impressão, configuração e digitação; estas informações estão sujeitas a alterações sem aviso prévio. No caso de superfícies laminadas, podem ocorrer diferenças de cor devido aos desvios usuais do processo.
+                </p>
+            </div>
+            </div>
+        </div>
+    </section>
+    <footer class="navbar navbar navbar-expand-md">
+        <div class="container">
+            <div class="col-md-6">
+
+                <p class="pt-3">
+                    2024 &reg DevFernando Silva - Todos os direitos reservados
+                </p>
+
+        </div>
+        <div class="col-md-6">
+            <div class=" d-flex justify-content-end">
+                <h3 class="mt-3 section-title fs-4 ">Connect</h3>
+                <ul class="mt-3 social-links">
+                    <li class="fs-4">
+                        <a href="#">
+                            <i class="social-white bi bi-facebook"></i>
+                        </a>
+                    </li>
+                    <li class=" fs-4 ms-4 me-4">
+                        <a href="#">
+                            <i class="social-white bi bi-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="fs-4">
+                        <a href="#">
+                            <i class="social-white bi bi-whatsapp"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </footer>
+</div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+    <script src="./JS/jquery.mask.min.js"></script>
+    <script src="./JS/jquery.validate.min.js"></script>
+    <script src="./JS/messages_pt_BR.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,277 @@
+body {
+    font-family: Roboto, sans-serif;
+    padding: 0px;
+}
+
+.container {
+    padding: 0px;
+}
+
+#carousel {
+    margin-top: -145px;
+}
+
+#logo-header {
+    height: 145px;
+}
+
+.navbar h1 {
+    font-size: 32px;
+}
+
+.carousel-inner {
+    height: 100vh;
+    position: relative;
+}
+
+.carousel-inner h2 {
+    font-size: 60px;
+}
+
+.carousel-item img {
+    width: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 0;
+    margin-top: 50vh;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #ff6600;
+    color: #fff;
+}
+
+#cabecalho .nav .nav-link, .navbar-brand, .navbar-brand:hover {
+    color: #000000;
+}
+
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #ff6600;
+    margin-bottom: 3px;
+}
+
+.navbar {
+    --bs-navbar-color: #ff6600;
+}
+
+.section-title span, .text-colored {
+    color: #ff6600;
+}
+
+#news a:hover {
+    color: #ff6600;
+}
+
+.nav-cardapio .nav-link.active, #fale-conosco button, .carousel-caption .btn {
+    background-color: #ff6600;
+    color: #fff;
+}
+
+.carousel-item .btn:hover {
+    background-color: transparent;
+    border: solid 1px #ff6600;
+    color: #ff6600;
+}
+
+#naked a img:hover {
+    -webkit-transition: all .3s ease-in;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #ff6600;
+}
+
+.social-links li {
+    list-style: none; 
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none; 
+}
+
+.social-white {
+    color: #fff;
+}
+
+#follow-us {
+    position: relative;
+    background-color: black;
+    color: #fff;
+}
+
+#follow-us h3 {
+    position: absolute;
+    top: 25%;
+    left: 5vw;
+    font-size: 40px;
+}
+
+#follow-us h6 {
+    position: absolute;
+    top: 45%;
+    left: 30%;
+}
+
+#btn-inst .btn {
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    background-color: transparent;
+    border: solid 1px #fff;
+    color: #fff;
+}
+
+#sub-footer {
+    font-size: 12px;
+    color: #999999;
+}
+
+footer {
+    background-color: black;
+    color: #d1d1d1;
+}
+
+/* ___________________________________________________________________Phone___________________________________________________________________ */
+@media screen and (max-width: 767px) {
+
+    .row {
+        --bs-gutter-x: .0rem;
+    }
+
+    #carousel {
+        margin-top: -82px;
+    }
+
+    .carousel-inner {
+        height: 100vh;
+        width: 100%;
+        position: relative;
+    }
+    
+    .carousel-inner h2 {
+        font-size: 12px;
+    }
+    
+    .carousel-caption {
+        position: absolute;
+        top: 0;
+        margin-top: 40vh;
+    }
+
+    .carousel-item img {
+        position: absolute;
+        top: 333px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100px;
+        /* height: 100vh; */
+        /* min-width: 100%; */
+        /* min-height: 100%; */
+    }
+
+    #cover1 {
+        margin-bottom: 8px;
+    }
+
+    .navbar h1 {
+        font-size: 22px;
+    }
+
+    #logo-header {
+        width: 82px;
+        height: 82px;
+        margin-left: 12px;
+        top: 0;
+        left: 0;
+    }
+
+    .container {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .navbar-toggler {
+        background-color: transparent;
+        margin-top: 8px;
+        border: none;
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 22;
+    }
+
+    #carousel .w-100 {
+        width: 379% !important;
+    }
+}
+/* ____________________________________________________Tablet___________________________________________________________ */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .carousel-inner h2 {
+        font-size: 48px;
+    }
+    
+    .carousel-inner {
+        height: 100vh;
+        position: relative;
+    }
+    
+    .carousel-inner h2 {
+
+        font-size: 12px;
+    }
+    
+    .carousel-caption {
+        position: absolute;
+        margin-top: 60vh;
+    }
+
+    .carousel-caption h2 {
+        font-size: 22px;
+    }
+
+    .carousel-item img {
+        position: absolute;
+        top: 585px;
+        left: 50%;
+        transform: translate(-50%, -50%);*/
+        width: 100px;
+        /* height: 100vh; */
+        /* min-width: 100%; */
+        /* min-height: 100%; */
+    }
+    .carousel-inner {
+    height: 100vh;
+    position: relative;
+    }
+
+    .carousel-inner h2 {
+        font-size: 60px;
+    }
+
+    .carousel-item .w-100 {
+        width: 310% !important;
+    }
+
+    #follow-us h3 {
+        font-size: 1.5em;
+    }
+
+    #follow-us h6 {
+        font-size: .8em;
+        left: 25%;
+    }
+
+    #btn-inst .btn {
+        left: 25%;
+    }
+
+}
+
